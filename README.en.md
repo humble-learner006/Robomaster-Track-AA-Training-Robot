@@ -63,7 +63,7 @@ Design a track robot that emulates the spatial motion trajectory of the four arm
 | Parameter | Value | Notes |
 |---|---:|---|
 | Linear speed range | 2 m/s | Not safely measurable |
-| Angular speed range | 6 rad/s | Not safely measurable |
+| Angular speed range | 4 rad/s | Not safely measurable |
 | Number of armor plates | 4 | Adjustable distribution |
 
 In practice, the track is too short: on a 2 m track, the robot can finish the run in about 1 s and then hit the end frame.
