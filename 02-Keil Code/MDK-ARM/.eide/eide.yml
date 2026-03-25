@@ -1,0 +1,326 @@
+version: "4.1"
+name: RobomasterBoardTypeC
+type: ARM
+deviceName: null
+packDir: null
+srcDirs: []
+virtualFolder:
+  name: <virtual_root>
+  files: []
+  folders:
+    - name: Application
+      files: []
+      folders:
+        - name: MDK-ARM
+          files:
+            - path: startup_stm32f407xx.s
+          folders: []
+        - name: User
+          files:
+            - path: ../Src/main.c
+            - path: ../Src/gpio.c
+            - path: ../Src/adc.c
+            - path: ../Src/can.c
+            - path: ../Src/crc.c
+            - path: ../Src/dac.c
+            - path: ../Src/dma.c
+            - path: ../Src/i2c.c
+            - path: ../Src/rng.c
+            - path: ../Src/rtc.c
+            - path: ../Src/spi.c
+            - path: ../Src/tim.c
+            - path: ../Src/usart.c
+            - path: ../Src/usb_device.c
+            - path: ../Src/usbd_conf.c
+            - path: ../Src/usbd_desc.c
+            - path: ../Src/usbd_cdc_if.c
+            - path: ../Src/stm32f4xx_it.c
+            - path: ../Src/stm32f4xx_hal_msp.c
+            - path: ../Src/CRC8_CRC16.c
+            - path: ../Inc/CRC8_CRC16.h
+          folders: []
+    - name: Drivers
+      files: []
+      folders:
+        - name: STM32F4xx_HAL_Driver
+          files:
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pcd_ex.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_usb.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_crc.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c_ex.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rtc_ex.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+            - path: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
+          folders: []
+        - name: CMSIS
+          files:
+            - path: ../Src/system_stm32f4xx.c
+          folders: []
+    - name: Middlewares
+      files: []
+      folders:
+        - name: USB_Device_Library
+          files:
+            - path: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c
+            - path: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c
+            - path: ../Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c
+            - path: ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src/usbd_cdc.c
+          folders: []
+        - name: Library
+          files: []
+          folders:
+            - name: DSP Library
+              files: []
+              folders:
+                - name: DSP Library
+                  files:
+                    - path: ../Middlewares/ST/ARM/DSP/Lib/arm_cortexM4l_math.lib
+                  folders: []
+    - name: SEML
+      files: []
+      folders:
+        - name: Drivers
+          files:
+            - path: ../SEML/Drivers/hal/Interface/can_if.c
+            - path: ../SEML/Drivers/hal/Interface/gpio_if.c
+            - path: ../SEML/Drivers/hal/Interface/i2c_if.c
+            - path: ../SEML/Drivers/hal/Interface/pwm_if.c
+            - path: ../SEML/Drivers/hal/Interface/spi_if.c
+            - path: ../SEML/Drivers/hal/button.c
+            - path: ../SEML/Drivers/hal/buzzer.c
+            - path: ../SEML/Drivers/hal/Motor.c
+            - path: ../SEML/Drivers/bsp/BMI088/BMI088driver.c
+            - path: ../SEML/Drivers/bsp/WS281x/WS281x.c
+            - path: ../SEML/Drivers/hal/Interface/uart_if.c
+          folders: []
+        - name: Middlewares
+          files: []
+          folders:
+            - name: System
+              files:
+                - path: ../SEML/Middlewares/System/event_os.c
+                - path: ../SEML/Middlewares/System/message.c
+                - path: ../SEML/Middlewares/System/timer.c
+                - path: ../SEML/SEML_common.c
+              folders: []
+            - name: Communications
+              files:
+                - path: ../SEML/Middlewares/Communications/Dji_Motor.c
+                - path: ../SEML/Middlewares/Communications/DR16_Remote.c
+                - path: ../SEML/Middlewares/Communications/SuperCap.h
+                - path: ../SEML/Middlewares/Communications/reference.h
+                - path: ../SEML/Middlewares/Communications/reference.c
+                - path: ../SEML/Middlewares/Communications/SuperCap.c
+              folders: []
+            - name: math
+              files:
+                - path: ../SEML/Middlewares/math/math_common.c
+                - path: ../SEML/Middlewares/math/math_CRC.c
+                - path: ../SEML/Middlewares/math/math_fast.c
+                - path: ../SEML/Middlewares/math/math_filter.c
+                - path: ../SEML/Middlewares/math/math_matrix.c
+                - path: ../SEML/Middlewares/math/math_Quaternion.c
+                - path: ../SEML/Middlewares/math/math_CRC.h
+                - path: ../SEML/Middlewares/math/math_fast.h
+                - path: ../SEML/Middlewares/math/math_filter.h
+                - path: ../SEML/Middlewares/math/math_matrix.h
+                - path: ../SEML/Middlewares/math/math_quaternion.h
+              folders: []
+            - name: Sol
+              files:
+                - path: ../SEML/Middlewares/Control/PID.c
+                - path: ../SEML/Middlewares/DataStructure/queue.c
+                - path: ../SEML/Middlewares/Solution/chassis.c
+                - path: ../SEML/Middlewares/Solution/AHRS/AHRS.c
+                - path: ../SEML/Middlewares/Solution/AHRS/Mahony/Mahony.c
+                - path: ../SEML/Middlewares/Solution/chassis_power_control.c
+              folders: []
+        - name: App
+          files:
+            - path: ../SEML/App/Robo/Robo_Chassis.c
+            - path: ../SEML/App/Robo/Robo_common.c
+            - path: ../SEML/App/Robo/Robo_USB.c
+            - path: ../SEML/App/Robo/Robo_USB.h
+            - path: ../SEML/App/Robo/pid.h
+            - path: ../SEML/App/Robo/pid.c
+          folders: []
+    - name: ::CMSIS
+      files: []
+      folders: []
+dependenceList: []
+outDir: build
+miscInfo:
+  uid: 96886087c0ad608ef8c00a1e0527cb5e
+targets:
+  RobomasterBoardTypeC:
+    cppPreprocessAttrs:
+      defineList:
+        - USE_HAL_DRIVER
+        - STM32F407xx
+        - USE_SEML_LIB
+      incList:
+        - ../Inc
+        - ../Drivers/STM32F4xx_HAL_Driver/Inc
+        - ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy
+        - ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc
+        - ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc
+        - ../Drivers/CMSIS/Device/ST/STM32F4xx/Include
+        - ../Drivers/CMSIS/Include
+        - ../Middlewares/ST/ARM/DSP/Inc
+        - ../SEML
+        - ../SEML/Drivers/hal
+        - ../SEML/Drivers/hal/Interface
+        - ../SEML/Drivers/bsp/BMI088
+        - ../SEML/Drivers/bsp/WS281x
+        - ../SEML/Middlewares/System
+        - ../SEML/Middlewares/Solution
+        - ../SEML/Middlewares/Solution/AHRS
+        - ../SEML/Middlewares/Solution/AHRS/Mahony
+        - ../SEML/Middlewares/DataStructure
+        - ../SEML/Middlewares/Control
+        - ../SEML/Middlewares/Communications
+        - ../SEML/App/Robo
+        - ../SEML/Middlewares/math
+        - .cmsis/include
+        - RTE/_RobomasterBoardTypeC
+      libList: []
+    excludeList: []
+    toolchain: AC5
+    toolchainConfigMap:
+      AC5:
+        archExtensions: ""
+        cpuType: Cortex-M4
+        floatingPointHardware: single
+        options:
+          version: 4
+          afterBuildTasks: []
+          asm-compiler: {}
+          beforeBuildTasks: []
+          c/cpp-compiler:
+            CXX_FLAGS: --diag_suppress=1 --diag_suppress=1295
+            C_FLAGS: --diag_suppress=1 --diag_suppress=1295
+            c99-mode: true
+            one-elf-section-per-function: true
+            optimization: level-3
+            warnings: no-warnings
+          global:
+            output-debug-info: enable
+            use-microLIB: false
+          linker:
+            $outputTaskExcludes:
+              - .bin
+            output-format: elf
+            ro-base: ""
+            rw-base: ""
+            xo-base: ""
+        scatterFilePath: ""
+        storageLayout:
+          RAM:
+            - id: 1
+              isChecked: false
+              mem:
+                size: "0x0"
+                startAddr: "0x0"
+              noInit: false
+              tag: RAM
+            - id: 2
+              isChecked: false
+              mem:
+                size: "0x0"
+                startAddr: "0x0"
+              noInit: false
+              tag: RAM
+            - id: 3
+              isChecked: false
+              mem:
+                size: "0x0"
+                startAddr: "0x0"
+              noInit: false
+              tag: RAM
+            - id: 1
+              isChecked: true
+              mem:
+                size: "0x1c000"
+                startAddr: "0x20000000"
+              noInit: false
+              tag: IRAM
+            - id: 2
+              isChecked: true
+              mem:
+                size: "0x4000"
+                startAddr: "0x2001c000"
+              noInit: false
+              tag: IRAM
+          ROM:
+            - id: 1
+              isChecked: false
+              isStartup: false
+              mem:
+                size: "0x0"
+                startAddr: "0x0"
+              tag: ROM
+            - id: 2
+              isChecked: false
+              isStartup: false
+              mem:
+                size: "0x0"
+                startAddr: "0x0"
+              tag: ROM
+            - id: 3
+              isChecked: false
+              isStartup: false
+              mem:
+                size: "0x0"
+                startAddr: "0x0"
+              tag: ROM
+            - id: 1
+              isChecked: true
+              isStartup: true
+              mem:
+                size: "0x100000"
+                startAddr: "0x8000000"
+              tag: IROM
+            - id: 2
+              isChecked: false
+              isStartup: false
+              mem:
+                size: "0x0"
+                startAddr: "0x0"
+              tag: IROM
+        useCustomScatterFile: false
+    uploadConfigMap:
+      JLink:
+        baseAddr: ""
+        bin: ""
+        cpuInfo:
+          cpuName: "null"
+          vendor: "null"
+        otherCmds: ""
+        proType: 1
+        speed: 8000
+    uploader: JLink

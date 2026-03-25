@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}\\**",
+                "E:\\Program Files (x86)\\Keil\\ARM\\ARMCC\\include",
+                "E:\\Program Files (x86)\\Keil\\ARM\\ARMCC\\include\\rw"
+            ],
+            "defines": [
+							"USE_HAL_DRIVER",
+							"STM32F407xx"
+            ],
+            "windowsSdkVersion": "10.0.19041.0",
+            "compilerPath": "C:/mingw64/bin/gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
