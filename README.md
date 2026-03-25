@@ -1,4 +1,4 @@
-中文为默认文档，英文版见 [English README](./README.en.md)
+If you cannot read Chinese, see [English README](./README.en.md)
 
 ![轨道机器人整体图](./03-docs/Images/overview.png)
 
