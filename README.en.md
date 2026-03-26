@@ -60,7 +60,7 @@ Design a track robot that emulates the spatial motion trajectory of the four arm
 
 ### Technical Specs
 
-| Parameter | Value | Notes |
+| Parameter | Tested Safe Value | Max value |
 |---|---:|---|
 | Linear speed range | 2 m/s | Not safely measurable |
 | Angular speed range | 4 rad/s | Not safely measurable |
