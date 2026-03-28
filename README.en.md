@@ -18,11 +18,12 @@
 
 # Mechanical Design Notes
 
-Track-based training robot that reproduces RoboMaster armor-plate motion for vision auto-aim training.
-
 ![Real-world photo](./03-docs/Images/实物图.jpg)
+Demo video (how this robot moves): [YouTube](https://www.youtube.com/watch?v=Dzg1kvwopgg)
 
 ## System Overview
+Track-based training robot that reproduces RoboMaster armor-plate motion for vision auto-aim training.
+
 The system has two motion modules:
 - **Rotation module**: spins the armor plates.
 - **Translation module**: moves along the track.
@@ -63,7 +64,7 @@ Design a track robot that emulates the spatial motion trajectory of the four arm
 | Parameter | Tested Safe Value | Max value |
 |---|---:|---|
 | Linear speed range | 2 m/s | Not safely measurable |
-| Angular speed range | 4 rad/s | Not safely measurable |
+| Angular speed range | 4 rps | Not safely measurable |
 | Number of armor plates | 4 | Adjustable distribution |
 
 In practice, the track is too short: on a 2 m track, the robot can finish the run in about 1 s and then hit the end frame.
